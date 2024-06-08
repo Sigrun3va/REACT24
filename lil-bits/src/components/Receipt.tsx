@@ -12,7 +12,7 @@ const Receipt: React.FC = () => {
   }
 
   const { selectedDish, selectedDrinks, date, people, email } = orderDetails;
-  const foodPrice = 20; // Standard price of $20
+  const foodPrice = 20; 
   const drinksPrice = selectedDrinks.reduce((total: number, drink: any) => total + drink.price, 0);
   const totalPrice = (foodPrice * people) + drinksPrice;
 

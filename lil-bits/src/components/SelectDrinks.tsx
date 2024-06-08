@@ -23,7 +23,7 @@ const SelectDrinks: React.FC = () => {
         const response = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail');
         const drinksWithPrices = response.data.drinks.map((drink: Drink) => ({
           ...drink,
-          price: Math.floor(Math.random() * 10) + 5, // Assign a random price between $5 and $15
+          price: Math.floor(Math.random() * 10) + 5, 
         }));
         setDrinks(drinksWithPrices);
       } catch (error) {

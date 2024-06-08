@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px; /* Adjust the gap as needed */
+    gap: 10px; 
     flex: 4;
   }
   
@@ -77,7 +77,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: calc(20% - 10px); /* Adjusting the width to fit 5 in a row with gap */
+    width: calc(20% - 10px); 
     text-align: center;
     transition: transform 0.3s ease-in-out;
   }
@@ -98,8 +98,8 @@ body {
   
   .sticky-button-container {
     position: fixed;
-    top: 20%; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 20%; 
+    right: 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,13 +117,13 @@ body {
     background-color: #BA2329;
     color: white;
     border: none;
-    padding: 10px 20px; /* Adjust padding for better fit */
+    padding: 10px 20px; 
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     text-transform: uppercase;
-    margin-top: 10px; /* Adjust margin for better spacing */
+    margin-top: 10px; 
   }
   
   .next-button:hover {
@@ -135,6 +135,6 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    margin-bottom: 10px; /* Adjust margin for better spacing */
+    margin-bottom: 10px; 
   }
   

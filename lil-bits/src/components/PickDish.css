@@ -121,7 +121,7 @@ body {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 150px; /* Adjust width as needed */
+  width: 150px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
@@ -139,7 +139,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 24px;
-  font-weight: bold; /* Make text bold */
+  font-weight: bold; 
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   text-transform: uppercase;
   margin-top: 10px;
