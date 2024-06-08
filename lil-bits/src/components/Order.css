@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #DDE494;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #3E6053;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 30px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 30px;
+  background-color: #C16757;
+  border-radius: 50px;
+  color: #EDEDED;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #BA2329;
+  color: #EDEDED;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.order-container {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-container h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.order-form label {
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+}
+
+.order-form input,
+.order-form select,
+.people-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.people-input {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.people-input button {
+  background-color: #C16757;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.people-input button:hover {
+  background-color: #BA2329;
+  transform: translateY(-2px);
+}
+
+.people-input input {
+  text-align: center;
+  width: 30px;
+  margin: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.next-button {
+  background-color: #C16757;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.next-button:hover {
+  background-color: #BA2329;
+  transform: translateY(-2px);
+}

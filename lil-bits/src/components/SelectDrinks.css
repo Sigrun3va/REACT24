@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #3E6053;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 160px;
+    height: auto;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 30px;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px 30px;
+    background-color: #C16757;
+    border-radius: 50px;
+    color: #EDEDED;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: #BA2329;
+    color: #EDEDED;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 60px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .drink-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Adjust the gap as needed */
+    flex: 4;
+  }
+  
+  .drink-card {
+    background-color: #fff;
+    color: #3E6053;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(20% - 10px); /* Adjusting the width to fit 5 in a row with gap */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .drink-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .drink-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .drink-card.selected {
+    border: 3px solid #C16757;
+  }
+  
+  .sticky-button-container {
+    position: fixed;
+    top: 20%; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C16757;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+  }
+  
+  .next-button {
+    background-color: #BA2329;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding for better fit */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-transform: uppercase;
+    margin-top: 10px; /* Adjust margin for better spacing */
+  }
+  
+  .next-button:hover {
+    background-color: #BA2329;
+    transform: translateY(-2px);
+  }
+  
+  .selected-drinks-count {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px; /* Adjust margin for better spacing */
+  }
+  
